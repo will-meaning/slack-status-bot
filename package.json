@@ -1,15 +1,24 @@
 {
-  "name": "slack-status",
+  "name": "slack-status-bot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "botkit": "^0.7.2"
+  },
+  "devDependencies": {},
   "scripts": {
     "botkit:run": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/will-meaning/slack-status-bot.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "botkit": "^0.7.2"
-  }
+  "bugs": {
+    "url": "https://github.com/will-meaning/slack-status-bot/issues"
+  },
+  "homepage": "https://github.com/will-meaning/slack-status-bot#readme"
 }
