@@ -1,6 +1,4 @@
-require('dotenv').config();
-
-if (!process.env.SLACK_TOKEN) {
+if (!process.env.token) {
   console.log('Error: Specify token in environment');
   process.exit(1);
 }
@@ -13,7 +11,7 @@ const controller = Botkit.slackbot({
 });
 
 const bot = controller.spawn({
-  token: process.env.SLACK_TOKEN
+  token: process.env.token
 }).startRTM();
 
 controller.hears(['check_status'], 'direct_message,direct_mention', function(bot, message) {

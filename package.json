@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "botkit": "^0.7.2",
-    "dotenv": "^6.2.0"
+    "botkit": "^0.7.2"
   }
 }
